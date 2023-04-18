@@ -19,6 +19,8 @@ dependencies {
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.8.1")
     implementation(files("lib/jpf-classes.jar"))
     implementation(files("lib/jpf-annotations.jar"))
+    implementation("com.jgoodies:jgoodies-common:1.8.1")
+    implementation("com.jgoodies:jgoodies-forms:1.9.0")
 }
 
 tasks.getByName<Test>("test") {
